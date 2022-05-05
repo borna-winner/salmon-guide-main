@@ -1,0 +1,155 @@
+.navBar {
+	display: inline-grid;
+	grid-column-gap: 00px;
+	width: 100%;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+}
+.leftSide {
+	justify-content: center;
+	align-items: center;
+}
+.logoImgHolder {
+	display: flex;
+	margin-left: 125px;
+	margin-right: 0px;
+	justify-content: space-between;
+}
+.connectLinks {
+	display: flex;
+	justify-content: space-between;
+	justify-content: center;
+	align-self: center;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+a {
+	color: black;
+	outline: none !important;
+	font-size: 14px;
+	display: inline-block;
+	height: 40px;
+	min-width: 120px;
+	line-height: 37px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	border-radius: 30px;
+	border: 2px solid rgb(20, 204, 69);
+	padding: 0px 10px;
+	font-size: 24px;
+	font-family: Soleil, Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+.logoSalmon {
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+}
+.heroTextTwo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	font-size: 28px;
+	font-family: serif;
+}
+
+.heroText {
+	font-family: serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	font-size: 38px;
+}
+.topHero {
+	margin-top: 75px;
+}
+.alreadyUser {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.cta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.signUpBtn {
+	color: rgb(255, 255, 255);
+	background: rgb(20, 204, 69);
+	border: 0px;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 20px;
+	letter-spacing: 1.5px;
+	line-height: 1;
+	padding: 16px 80px;
+	text-align: center;
+	box-sizing: border-box;
+	margin: 0px;
+	outline: none !important;
+	cursor: pointer;
+}
+.signUpBtn:hover {
+	opacity: 3;
+}
+.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+}
+.blankSpace {
+	height: 200px;
+}
+.emptySpace {
+	height: 100px;
+}
+.aboutSign {
+	display: flex;
+	text-decoration: underline;
+	justify-content: center;
+}
+.contactInfo {
+	display: flex;
+	justify-content: center;
+}
+.textOne {
+	width: 650px;
+	margin: 0 auto;
+}
+.smallTextOne {
+	width: 650px;
+	margin: 0 auto;
+	text-decoration: underline;
+}
+.salmonPicGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
+	margin-top: 50px;
+	margin-left: 5px;
+	justify-content: center;
+	font: 24px Serif;
+}
+.cubeSalmon {
+	height: 180px;
+	width: 350px;
+	border: 2px solid lightslategray;
+	box-shadow: lightslategray;
+}
+p {
+	display: flex;
+	justify-content: center;
+}
+.topWords {
+	font-weight: 600;
+}
+h1 {
+	font-weight: 200;
+}
